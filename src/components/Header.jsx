@@ -10,6 +10,7 @@ const Header = () => {
                 src='https://links.papareact.com/f90'
                 width={100}
                 height={20}
+                alt='Amazon Logo'
                 // objectFit='contain'
                 className='cursor-pointer'
                 />
@@ -18,7 +19,7 @@ const Header = () => {
                 <input  className='p-2 w-6 h-full flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text" />
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-12 w-10 p-2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                </svg>
+                </svg>               
             </div>
             <div className='text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap'>
                 <div className='link'>
@@ -40,7 +41,7 @@ const Header = () => {
         </div>
         <div className='flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm'>
             <p className='link flex items-center text-xs md:text-sm'>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
                 All

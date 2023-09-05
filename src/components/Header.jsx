@@ -48,7 +48,7 @@ const Header = () => {
             </p>
             <p className='link whitespace-nowrap text-xs md:text-sm'>Prime Video</p>
             <p className='link whitespace-nowrap text-xs md:text-sm'>Amazon Business</p>
-            <p className='link whitespace-nowrap text-xs md:text-sm'>Today's Deals</p>
+            <p className='link whitespace-nowrap text-xs md:text-sm'>Today&apos;s Deals</p>
             <p className='link hidden lg:inline-flex'>Electronics</p>
             <p className='link hidden lg:inline-flex'>Food & Grocery</p>
             <p className='link hidden lg:inline-flex'>Prime</p>

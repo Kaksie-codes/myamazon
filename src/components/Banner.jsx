@@ -32,7 +32,7 @@ const Banner = () => {
         setTimeout(() => {
             prevSlide();
         }, 5000)
-    }, [currentIndex])
+    }, [currentIndex, prevSlide])
 
   return (
     <div className='relative w-full h-[580px] group'>

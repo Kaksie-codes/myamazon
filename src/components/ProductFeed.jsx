@@ -3,22 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Product from './Product';
 
 const ProductFeed = ({ products }) => {
-    // const [products, setProducts] = useState(null);
-
-    // useEffect(() => {
-    //     const getProducts = async () => {
-    //         try {
-    //             const response = await fetch('https://fakestoreapi.com/products');                
-    //             const _products = await response.json();
-    //             setProducts(_products);
-    //         } catch (error) {
-    //             console.error('Error fetching data:', error);
-    //         }
-    //     };
-
-    //     getProducts()
-    // }, []);
-
+   
   return (
     <div className='grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md: -mt-52 mx-auto'>
         {products.slice(0, 4).map(({title, id, price, description, category, image}) => (            

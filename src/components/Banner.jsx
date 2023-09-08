@@ -35,7 +35,7 @@ const Banner = () => {
     }, [currentIndex, prevSlide])
 
   return (
-    <div className='relative w-full h-[580px] group'>
+    <div className='relative w-full h-[580px] group z-10 mt-[5rem]'>
         <div className='absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20'/>
         <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="h-full w-full bg-center bg-cover duration-500"></div>
         <div onClick={prevSlide} className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
